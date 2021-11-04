@@ -54,7 +54,7 @@ LEFT JOIN tb_loja
 ON tb_produto.loj_prod = tb_loja.loj_prod
 LEFT JOIN tb_estoque
 ON tb_produto.cod_prod = tb_estoque.cod_prod
-WHERE tb_produto.loj_prod = 1
+WHERE tb_produto.loj_prod = 1;
 ```
 
 #### B)Observe a estrutura da tabela de estoque e da tabela de produtos, monte um select para trazer todos os produtos que existem na tabela de produtos que não existem na tabela de estoque.
